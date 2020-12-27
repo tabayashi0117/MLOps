@@ -1,9 +1,9 @@
 import numpy as np
 
-def testfunc(a):
+def func1(a):
     print(a)
     return a+1
 
 if __name__ == "__main__":
-    testfunc(1)
-    testfunc(2)
+    func1(1)
+    func1(2)

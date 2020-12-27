@@ -1,7 +1,7 @@
-from main import testfunc
+from main import func1
 
 def test1():
-    assert testfunc(1) == 2
+    assert func1(1) == 2
 
 def test2():
-    assert testfunc(2) == 3
+    assert func1(2) == 3
